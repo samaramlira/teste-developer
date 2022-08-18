@@ -82,6 +82,8 @@ closeBtns.forEach((closeBtn) => {
     });
 });
 
+
+
 var popupViews2 = document.querySelectorAll('.popup-view02');
 var popupBtns2 = document.querySelectorAll('.card02');
 var closeBtns2 = document.querySelectorAll('.popup-view02 .btn-close');
@@ -90,9 +92,9 @@ var popup2 = function(popupClick2){
     popupViews2[popupClick2].classList.add('active2');
 }
 
-popupBtns2.forEach((popupBtn2, i) => {
+popupBtns2.forEach((popupBtn2, i2) => {
     popupBtn2.addEventListener("click2", () => {
-        popup2(i);
+        popup2(i2);
     });
 });
 
@@ -103,6 +105,8 @@ closeBtns2.forEach((closeBtn2) => {
         });
     });
 });
+
+
 
 var popupViews3 = document.querySelectorAll('.popup-view03');
 var popupBtns3 = document.querySelectorAll('.card03');
